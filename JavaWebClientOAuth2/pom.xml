@@ -9,7 +9,7 @@
   <url>http://sample-oauth2.infor.com:8080/SampleAppOAuth2</url>
   <properties>
       <jettyVersion>9.3.9.v20160517</jettyVersion>
-  </properties>  
+  </properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -43,8 +43,8 @@
         <version>${jettyVersion}</version>
 		  <configuration>
 		    <scanIntervalSeconds>1</scanIntervalSeconds>
-		  </configuration>        
+		  </configuration>
       </plugin>
-    </plugins>    
+    </plugins>
   </build>
 </project>
